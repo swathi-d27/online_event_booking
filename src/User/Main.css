@@ -1,0 +1,12 @@
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh; /* Adjust as needed to center vertically */
+  }
+  
+  .center-image {
+    max-width: 180%; /* Ensure the image doesn't exceed the container width */
+  }
+  

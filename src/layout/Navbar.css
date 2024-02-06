@@ -1,0 +1,84 @@
+/* Navbar */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h3 {
+  color: white;
+  margin: 0;
+}
+
+.navbar button {
+  color: #333;
+  background-color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Sidebar */
+.nav-menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.nav-menu.active {
+  left: 0;
+}
+
+
+.nav-menu-items {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-menu-items li {
+  padding: 15px;
+}
+
+.nav-menu-items a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.nav-menu-items a:hover {
+  color: #ffc107;
+}
+
+/* Modal */
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.brand
+{
+  text-align: right;
+}
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
